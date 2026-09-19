@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kelsia &amp; Shelcia — A nossa amizade</title>
+    <meta
+      name="description"
+      content="Uma homenagem à amizade de Kelsia e Shelcia, com memórias e um contador desde o primeiro dia."
+    />
+    <meta property="og:title" content="Kelsia &amp; Shelcia — A nossa amizade" />
+    <meta
+      property="og:description"
+      content="Fotos, palavras de carinho e memórias de uma amizade muito especial."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Karla:wght@300;400;500&display=swap"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Ecrã de presente: aparece primeiro, antes de tudo o resto -->
+    <section id="tela-presente">
+      <div class="presente-caixa">
+        <div class="presente-emblema" aria-hidden="true">🎁</div>
+        <p class="presente-texto">
+          <strong id="presente-nome">Shelcia</strong> tem um presente muito
+          especial para ti.
+        </p>
+        <button id="btn-abrir" class="btn-abrir">ABRIR</button>
+      </div>
+    </section>
+
+    <main class="page" id="conteudo-principal">
+      <header class="header">
+        <h1 class="nome">Kelsia</h1>
+        <p class="nome-sub">&amp; Shelcia</p>
+        <button id="btn-partilhar" class="btn-partilhar">
+          <span aria-hidden="true">⤴</span><span id="txt-partilhar">Partilhar</span>
+        </button>
+      </header>
+
+      <section class="bloco">
+        <figure class="moldura moldura-grande">
+          <img src="fotos/foto-1.jpeg" alt="Kelsia e Shelcia" width="768" height="1024" />
+        </figure>
+        <p class="texto-destaque">
+          Minha Andrea, minha Yoshi, minha amiga maravilhosa ❤️🥺.
+        </p>
+      </section>
+
+      <!-- Fotos e vídeos ficam agora misturados aqui dentro, pela ordem definida em script.js -->
+      <section id="galeria" class="bloco lista"></section>
+
+      <section class="contador reveal">
+        <p class="eyebrow centro">A cada segundo que passa</p>
+        <div id="contador-grelha" class="contador-grelha"></div>
+        <p class="nota">desde 20 de fevereiro de 2017</p>
+      </section>
+
+      <section class="final reveal">
+        <span class="coracao" aria-hidden="true">❤</span>
+        <p class="texto-destaque">
+          Quem diria que duas pessoas tão diferentes poderiam construir uma amizade tão verdadeira?
+        </p>
+        <p class="texto-simples">
+          Você foi uma das melhores surpresas que a vida me trouxe e agradeço todos os dias por ter
+          te conhecido.
+        </p>
+        <p class="texto-simples">
+          Sua amizade é uma das maiores bênçãos da minha vida. Nem posso imaginar o que seria de mim
+          sem seus conselhos e puxões de orelha. Obrigada pelo cuidado de sempre.
+        </p>
+        <p class="texto-simples">
+          Que nossa amizade dure para sempre e que possamos continuar a compartilhar dos bons e maus
+          momentos.
+        </p>
+        <p class="texto-destaque">Te amooooo muitoooo, minha melhor. ❤️</p>
+      </section>
+
+      <footer class="rodape"><p class="eyebrow">Feito com amor</p></footer>
+
+      <div class="barra-musica">
+        <img src="fotos/foto-4.png" alt="" class="capa" />
+        <div class="info">
+          <p class="titulo">A nossa música</p>
+          <p id="estado-musica" class="estado">Toca para ouvir</p>
+        </div>
+        <button id="btn-musica" class="btn-play" aria-label="Tocar música">▶</button>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
