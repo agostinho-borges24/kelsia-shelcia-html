@@ -41,9 +41,9 @@ const GALERIA = [
 // A ordem aqui é a ordem em que os vídeos vão aparecer, distribuídos
 // entre as fotos da galeria (ver função `intercalar` mais abaixo).
 const VIDEOS = [
-  { src: "videos/video-1.mp4", texto: "Momentos simples ao teu lado tornam-se inesquecíveis." },
-  { src: "videos/video-2.mp4", texto: "Rir contigo é o meu passatempo favorito. ❤️" },
-  { src: "videos/video-3.mp4", texto: "O teu abraço é o meu lugar favorito no mundo. 🤍" },
+  { src: "./videos/Video-1.mp4", texto: "Momentos simples ao teu lado tornam-se inesquecíveis." },
+  { src: "./videos/Video-2.mp4", texto: "Rir contigo é o meu passatempo favorito. ❤️" },
+  { src: "./videos/Video-3.mp4", texto: "O teu abraço é o meu lugar favorito no mundo. 🤍" },
 ];
 
 const START_DATE = new Date("2017-02-20T00:00:00");
